@@ -1,5 +1,41 @@
-div {
+body {
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;   
+    align-items: center; 
+    width: 100vw;
+    height: 90vh;
+    
+}
+
+h1 {
+
+}
+
+.inputs {
+    background-color: oldlace;
+    border-radius:5px;
+    -webkit-box-shadow: 10px 15px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 15px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 15px 50px 0px rgba(0,0,0,0.75);
+}
+
+
+form{
+    -webkit-box-shadow: 10px 15px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 15px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 15px 50px 0px rgba(0,0,0,0.75);
+    background-color: paleturquoise;
+    text-align:center;
+    padding:2%;
+    padding-left:6%; 
+    padding-right:6%; 
+    border-radius:7px;
 }
